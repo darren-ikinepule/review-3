@@ -19,30 +19,32 @@ image {
   width: 100px;
 }
 
-.first-container {
+.flex {
   display: flex;
   width: 100vw;
-  border: 2px solid red;
+}
+
+.pink {
+  border: 2px solid pink;
+}
+
+.first-container {
+  width: 100vw;
 }
 
 .first-container .image-item {
   display: flex;
 }
 .second-container {
-  display: flex;
   width: 100vw;
-  border: 2px solid red;
 }
 
 .second-container .image-item {
-  display: flex;
+ display: flex;
   gap: 16px;
 }
 .third-container {
-  display: flex;
   flex-direction: column;
-  width: 100vw;
-  border: 2px solid red;
 }
 
 .third-container .image-item {
@@ -51,10 +53,7 @@ image {
   gap: 16px;
 }
 .fourth-container {
-  display: flex;
   flex-direction: column;
-  width: 100vw;
-  border: 2px solid red;
 }
 
 .fourth-container .image-item {
@@ -62,10 +61,7 @@ image {
   justify-content: space-around;
 }
 .fifth-container {
-  display: flex;
   flex-direction: column;
-  width: 100vw;
-  border: 2px solid red;
 }
 
 .fifth-container .image-item {
@@ -74,10 +70,7 @@ image {
   gap: 16px;
 }
 .sixth-container {
-  display: flex;
   flex-direction: column;
-  width: 100vw;
-  border: 2px solid red;
 }
 
 .sixth-container .image-item {
@@ -86,16 +79,14 @@ image {
   gap: 16px;
 }
 .seventh-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
   width: 400px;
   height: 400px;
-  border: 2px solid red;
 }
 
 .seventh-container .image-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 20px;
   gap: 16px;
 }
